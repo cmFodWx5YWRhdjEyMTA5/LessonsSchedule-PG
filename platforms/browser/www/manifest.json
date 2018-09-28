@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "LessonsSchedule",
+  "short_name": "LessonsSchedule",
+  "version": "ru.mhgk.lessons-schedule",
+  "description": "Hello World sample application that responds to the deviceready event.",
+  "author": "Michael Bergen",
+  "icons": [],
+  "start_url": "index.html"
+}

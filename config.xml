@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="ru.mhgk.lessons-schedule" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>LessonsSchedule</name>
+    <description>
+        Hello World sample application that responds to the deviceready event.
+    </description>
+    <author email="mhbrgn@gmail.com" href="https://mhgk.tk/">
+        Michael Bergen
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+    <plugin name="cordova-plugin-file" source="npm" spec="~4.3.3" />
+    <plugin name="cordova-plugin-globalization" source="npm" spec="~1.0.7" />
+    <plugin name="cordova-plugin-inappbrowser" source="npm" spec="~1.7.1" />
+    <plugin name="cordova-plugin-network-information" source="npm" spec="~1.3.3" />
+    <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.5" />
+    <plugin name="cordova-plugin-x-socialsharing" spec="~5.4.1" />
+    <platform name="android">
+        <icon density="hdpi" src="www/res/icon/android/drawable-hdpi-icon.png" />
+        <icon density="xhdpi" src="www/res/icon/android/drawable-xhdpi-icon.png" />
+        <icon density="xxhdpi" src="www/res/icon/android/drawable-xxhdpi-icon.png" />
+        <icon density="xxxhdpi" src="www/res/icon/android/drawable-xxxhdpi-icon.png" />
+        <feature name="SocialSharing">
+            <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
+        </feature>
+    </platform>
+    <access origin="*" />
+    <allow-intent href="https://lessons.mhgk.tk/*" />
+</widget>
